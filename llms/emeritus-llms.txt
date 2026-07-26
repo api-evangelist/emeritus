@@ -1,0 +1,19 @@
+# Emeritus
+
+> Emeritus is a global online education company partnering with 80+ premier universities (Wharton, MIT, Columbia, Harvard, Kellogg, UC Berkeley) to deliver outcome-based executive education, professional certificates, and skill-development programs to 500,000+ learners worldwide across individual, enterprise, and university-partnership segments. Backed by Accel and the SoftBank Vision Fund. Emeritus publishes no public developer API.
+
+## Company
+- [Emeritus website](https://emeritus.org/): Company homepage and program catalog
+- [Blog](https://emeritus.org/blog/): Articles on executive education, leadership, and industry skills
+- [Careers](https://careers.emeritus.org/): Open roles at Emeritus
+- [Connect With Us](https://emeritus.org/connect-with-us/): Support and contact
+
+## Account
+- [Login / Admissions](https://admissions.emeritus.org/): Learner login and program admissions portal
+
+## Legal
+- [Terms of Service](https://emeritus.org/terms-of-service/)
+- [Privacy Notice](https://emeritus.org/privacy-notice/)
+
+## Notes
+- No public developer API, OpenAPI/AsyncAPI specification, SDK, MCP server, or /.well-known discovery surface was found (all /.well-known/* and /llms.txt probes returned 404 on 2026-07-19).

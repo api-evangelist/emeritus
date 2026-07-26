@@ -1,8 +1,13 @@
 aid: emeritus
 name: Emeritus
-description: 'Emeritus is a company surfaced as a portfolio company of accel, softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Emeritus is a global online education company that partners with more than 80 premier
+  universities — including Wharton, MIT, Columbia, Harvard, Kellogg, and UC Berkeley — to deliver
+  outcome-based executive education, professional certificates, and skill-development programs to over
+  500,000 learners worldwide. It operates across individual learners, enterprise/corporate training, and
+  university-branded partnership programs, spanning topics such as AI and machine learning, data science,
+  finance, leadership, and digital transformation through instructor-led online and blended formats.
+  Emeritus is backed by Accel and the SoftBank Vision Fund. This profile was surfaced as a VC portfolio
+  lead and enriched by the API Evangelist pipeline; Emeritus publishes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/emeritus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://s44783.pcdn.co/wp-content/uploads/2020/12/emeritus-logo-1200-675.jpg.optimal.jpg
 tags:
 - Company
 - Consumer
+- Education
+- EdTech
+- Executive Education
+- Online Learning
+- Professional Development
+- Corporate Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://emeritus.org/
+- type: Blog
+  url: https://emeritus.org/blog/
+- type: Login
+  url: https://admissions.emeritus.org/
+- type: Support
+  url: https://emeritus.org/connect-with-us/
+- type: TermsOfService
+  url: https://emeritus.org/terms-of-service/
+- type: PrivacyPolicy
+  url: https://emeritus.org/privacy-notice/
+- type: DomainSecurity
+  url: security/emeritus-domain-security.yml
+- type: LLMsTxt
+  url: llms/emeritus-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
